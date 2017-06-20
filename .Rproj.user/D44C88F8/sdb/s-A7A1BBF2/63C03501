@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "my.chol <- function(A) {\n  l <- matrix(0, nrow(A), nrow(A))\n  l[1, 1] <- sqrt(A[1, 1])\n  # Calculate elements\n  for (i in 2:nrow(A)) {\n    for (j in 1:i-1) {\n      l[i, j] <- 1/l[j, j] * (A[i, j] - sum(l[i, 1:j-1] * l[j, 1:j-1]))\n      l[i, i] <- sqrt(A[i, i] - sum(l[i, 1:i-1]**2))\n    }\n  }\n  return(l)\n}\n",
+    "created" : 1497989673904.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1255320186",
+    "id" : "63C03501",
+    "lastKnownWriteTime" : 1497989840,
+    "last_content_update" : 1497989840950,
+    "path" : "~/BigData/R/mychol.R",
+    "project_path" : "R/mychol.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
