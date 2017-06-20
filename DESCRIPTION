@@ -2,8 +2,8 @@ Package: BigData
 Type: Package
 Title: Cholesky Decomposition
 Version: 0.1.0
-Author: Santiago Paz
-Maintainer: santiago.l.paz@gmail.com
+Author: Santiago Paz <santiago.l.paz@gmail.com>
+Maintainer: Santiago Paz <santiago.l.paz@gmail.com>
 Description: Cholesky Decomposition!
-License: GPL-3
+License: GPL (>=3)
 LazyData: TRUE
