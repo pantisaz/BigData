@@ -1,4 +1,4 @@
-my.chol <- function(A) {
+mychol <- function(A) {
   l <- matrix(0, nrow(A), nrow(A))
   l[1, 1] <- sqrt(A[1, 1])
   # Calculate elements
