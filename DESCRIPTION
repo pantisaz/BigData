@@ -5,5 +5,5 @@ Version: 0.1.0
 Author: Santiago Paz <santiago.l.paz@gmail.com>
 Maintainer: Santiago Paz <santiago.l.paz@gmail.com>
 Description: Cholesky Decomposition!
-License: GPL (>=3)
+License: Apache2
 LazyData: TRUE
